@@ -1,5 +1,4 @@
 %%                         AND gate perceptron
-% Name - Pulkit Chandel         PRN - 17070123078   Batch-G3
 clc; clear all; close all;
 %% Inputs and their conditions
 x1=[1 1 -1 -1]; %first input vector
@@ -47,7 +46,3 @@ end
 function bnew = bias_update(bold,ti,a) %bias update function
   bnew = bold+(a*ti);
 end
-%% Conclusion
-% As studied in lecture about the weight update algorithms. Implemented
-% those same equations using MATLAB and cross valiated the theoretical and
-% practical results. The values of the weight vector came out to be same
